@@ -17,6 +17,7 @@ public class RegistrationPage {
         this.elementAction = new ElementAction(driver);
     }
 
+
     //Launch the url
     public void navigateToRegisterPage(String url) throws InterruptedException {
 

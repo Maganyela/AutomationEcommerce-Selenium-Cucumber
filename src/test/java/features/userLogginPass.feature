@@ -1,7 +1,10 @@
+
+
 Feature: Login Passed
   As a user
   I want to Login with to the application
   With Valid email and Valid Password
+
 
   Scenario: Login with a valid credentials
     Given I am on the Web Application page

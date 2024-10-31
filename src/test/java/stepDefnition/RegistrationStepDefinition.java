@@ -3,10 +3,12 @@ package stepDefnition;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Parameters;
 import pages.RegistrationPage;
 import utility.WebDriverUtility;
 
-import java.util.concurrent.ThreadLocalRandom;
+
 
 public class RegistrationStepDefinition {
 
@@ -35,8 +37,9 @@ public class RegistrationStepDefinition {
 
     @When("I enter email")
     public void i_enter_as_email() throws InterruptedException {
-        registrationPage.enterEmail("vitwendmpho@gmail.com");
+        registrationPage.enterEmail("vitwedd@gmail.com");
     }
+
 
     @When("I click on the create an account button")
     public void i_click_on_the_create_an_account_button() throws InterruptedException {

@@ -1,0 +1,21 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Oct 30 14:46:53 SAST 2024","Wed Oct 30 14:47:36 SAST 2024","43527","","Search product","","Search product on the application","","Search product on the application","  As a user
+  I want to search product to the application
+  with the valid names of the product"
+"passed","Wed Oct 30 14:49:05 SAST 2024","Wed Oct 30 14:50:45 SAST 2024","99858","","CashOut the product that is in the cart","","Select Categories on the application","","Select Categories on the application","  As a user
+  I want to CashOut the selected product in to the cart"
+"passed","Wed Oct 30 14:44:09 SAST 2024","Wed Oct 30 14:46:06 SAST 2024","116073","","Filter Products with different color","","Search product on the application","","Search product on the application","  As a user
+  I want to filter color of the products"
+"passed","Wed Oct 30 14:41:53 SAST 2024","Wed Oct 30 14:44:09 SAST 2024","135278","","Add different product to the cart","","Select Categories on the application","","Select Categories on the application","  As a user
+  I want to add the selected product in to the cart"
+"passed","Wed Oct 30 14:46:06 SAST 2024","Wed Oct 30 14:46:53 SAST 2024","46982","","Reset Password","","Reset password with the valid email","","Reset password with the valid email","  As a user
+  I want to Reset password to the application
+  ith the email i used when i register"
+"passed","Wed Oct 30 14:39:29 SAST 2024","Wed Oct 30 14:41:47 SAST 2024","138120","","Registration","","Register with a valid credentials","","Register with a valid credentials","    As a user
+    I want to register to the application
+    So that i can excess the application"
+"passed","Wed Oct 30 14:48:37 SAST 2024","Wed Oct 30 14:49:05 SAST 2024","28578","","Login Passed","","Login with a valid credentials","","Login with a valid credentials","  As a user
+  I want to Login with to the application
+  With Valid email and Valid Password"
+"passed","Wed Oct 30 14:47:36 SAST 2024","Wed Oct 30 14:48:37 SAST 2024","60486","","Select Different Categories","","Select Categories on the application","","Select Categories on the application","  As a user
+  I want to select different categories on the Application"

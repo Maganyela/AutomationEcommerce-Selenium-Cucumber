@@ -1,7 +1,10 @@
-  Feature: Registration
+
+
+Feature: Registration
     As a user
     I want to register to the application
     So that i can excess the application
+
 
   Scenario: Register with a valid credentials
     Given I am on the Web Application page
