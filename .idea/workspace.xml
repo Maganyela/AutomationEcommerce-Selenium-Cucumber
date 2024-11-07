@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f553e646-bd3a-4ff9-b82d-732c3c7401fb" name="Changes" comment="commiting the screenshot and also the allure report that is working so the screenshot is attached to the allure">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f553e646-bd3a-4ff9-b82d-732c3c7401fb" name="Changes" comment="commiting the screenshot and also the allure report that is working so the screenshot is attached to the allure" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -246,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730967313943</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commiting the screenshot and also the allure report that is working so the screenshot is attached to the allure">
+      <option name="closed" value="true" />
+      <created>1730967862679</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730967862679</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
