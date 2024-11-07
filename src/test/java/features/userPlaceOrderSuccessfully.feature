@@ -26,4 +26,4 @@ Feature: CashOut the product that is in the cart
     When I click on the confirm my order button
     When I click on the view order history button
     When I click on the back to you account button
-    Then I should navigate to the home page
+    Then I should navigate to the home page and verify home logo

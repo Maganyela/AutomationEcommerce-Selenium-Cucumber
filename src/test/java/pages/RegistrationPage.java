@@ -139,4 +139,10 @@ public class RegistrationPage {
         ui.sleep(2);
     }
 
+    public void confirmUserRegistration() {
+
+        WebElement txtElement = driver.findElement(By.cssSelector(".page-subheading"));
+        assert(txtElement.getText().equals("Your personal information"));
+    }
+
 }

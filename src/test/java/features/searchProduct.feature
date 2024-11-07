@@ -13,4 +13,4 @@ Feature: Search product
       When I click on the Sign In button
       When I search any product on the search bar
       When I click on the search button
-      Then I should be able to see the product
+      Then the user should see the text that is used to search

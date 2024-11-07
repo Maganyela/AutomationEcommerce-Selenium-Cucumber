@@ -26,8 +26,9 @@ public class searchProductStepDefinition {
         searchProductPage.clickSearch();
     }
 
-    @Then("I should be able to see the product")
+    @Then("the user should see the text that is used to search")
     public void i_should_be_able_to_see_the_productt() {
 
+        searchProductPage.textSearched();
     }
 }

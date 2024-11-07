@@ -56,8 +56,9 @@ public class addProductCartStepDefinition {
         productCartPage.clickCashoutButton();
     }
 
-    @Then("The product should be in the cart ready for cashout")
-    public void the_product_should_be_in_the_cart_ready_for_cashout(){
+    @Then("The product should be in the cart ready for cashOut")
+    public void the_product_should_be_in_the_cart_ready_for_cashOut(){
 
+        productCartPage.summaryCart();
     }
 }

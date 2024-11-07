@@ -19,4 +19,4 @@ Feature: Add different product to the cart
           When I click the White color
           When I click the Add to cart button
           When I click the Proceed to cashOut button
-          Then The product should be in the cart ready for cashout
+          Then The product should be in the cart ready for cashOut

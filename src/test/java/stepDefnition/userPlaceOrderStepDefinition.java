@@ -66,8 +66,9 @@ public class userPlaceOrderStepDefinition {
         orderSuccessfullyPage.clickBackToAccount();
     }
 
-    @Then("I should navigate to the home page")
+    @Then("I should navigate to the home page and verify home logo")
     public void i_should_navigate_to_the_home_page() {
 
+        orderSuccessfullyPage.confirHomeLogo();
     }
 }

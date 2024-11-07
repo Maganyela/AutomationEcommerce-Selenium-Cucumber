@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import utility.ElementAction;
 import utility.WebDriverUtility;
 
@@ -29,5 +30,11 @@ public class searchProductPage {
         By clickSearchField = By.name("submit_search");
         elementAction.clickElement(clickSearchField);
         ui.sleep(2);
+    }
+
+    public void textSearched() {
+
+        WebElement txtSearchedField = driver.findElement(By.cssSelector(".lighter"));
+        assert(txtSearchedField.getText().equals("Faded Short Sleeve T-shirts"));
     }
 }

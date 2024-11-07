@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import utility.ElementAction;
 import utility.WebDriverUtility;
 
@@ -39,5 +40,11 @@ public class filterProductColorPage {
         elementAction.clickElement(clickOrangeField);
 
         ui.sleep(4);
+    }
+
+    public void seeColorTxt() {
+
+        WebElement txtColor = driver.findElement(By.xpath("//label[contains(.,'Color')]"));
+        assert(txtColor.getText().equals("Color"));
     }
 }

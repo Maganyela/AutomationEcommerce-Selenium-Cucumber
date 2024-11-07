@@ -34,5 +34,6 @@ public class filterProductColorStepDefinition {
     @When("I should be able to see the product colors")
     public void i_should_be_able_to_see_the_product_colors() {
 
+        filterProductColor.seeColorTxt();
     }
 }

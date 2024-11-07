@@ -12,4 +12,5 @@ Feature: Login Passed
     When I enter the email
     When I enter the password
     When I click on the Sign In button
+    When The user should see the text My Account
     Then I should be logged in

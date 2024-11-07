@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import utility.ElementAction;
 import utility.WebDriverUtility;
 
@@ -48,5 +49,11 @@ public class selectCategoryPage {
         elementAction.clickElement(clickSummerCheckboxField);
 
         ui.sleep(3);
+    }
+
+    public void seeCategories() {
+
+        WebElement txtCategories = driver.findElement(By.cssSelector(".cat-name"));
+        assert(txtCategories.getText().equals("Dresses > Categories Casual Dresses/Evening Dresses/Summer Dresses"));
     }
 }

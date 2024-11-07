@@ -2,6 +2,7 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import utility.ElementAction;
 import utility.WebDriverUtility;
 
@@ -72,5 +73,10 @@ public class addProductCartPage {
         ui.sleep(2);
     }
 
+    public void summaryCart() {
+
+        WebElement txtSummaryCart = driver.findElement(By.id("cart_title"));
+        assert(txtSummaryCart.getText().equals("Shopping-cart summary"));
+    }
 
 }

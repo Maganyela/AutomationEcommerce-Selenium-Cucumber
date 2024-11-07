@@ -40,5 +40,6 @@ public class selectCategoryStepDefinition {
     @Then("I should be able to see the different product")
     public void i_should_be_able_to_see_the_different_product() {
 
+        selectcategoryPage.seeCategories();
     }
 }

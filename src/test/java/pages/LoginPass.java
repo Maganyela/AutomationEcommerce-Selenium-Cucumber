@@ -48,9 +48,11 @@ public class LoginPass {
         ui.sleep(1);
     }
 
+    public void confirmTextAccount() {
 
-
-
+        WebElement txtMyAccount = driver.findElement(By.cssSelector(".page-heading"));
+        assert(txtMyAccount.getText().equals("My account"));
+    }
 
 }
 

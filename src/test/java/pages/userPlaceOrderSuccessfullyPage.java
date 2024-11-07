@@ -2,8 +2,11 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import utility.ElementAction;
 import utility.WebDriverUtility;
+
+import static org.junit.Assert.assertTrue;
 
 public class userPlaceOrderSuccessfullyPage {
 
@@ -88,5 +91,10 @@ public class userPlaceOrderSuccessfullyPage {
         ui.sleep(2);
     }
 
+    public void confirHomeLogo() {
+
+        WebElement logo = driver.findElement(By.cssSelector("[alt='My Shop']"));
+        assertTrue(logo.isDisplayed());
+    }
 
 }

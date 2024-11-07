@@ -45,11 +45,15 @@ public class LoginPassStepDefinition {
         loginPass.clickLogin();
     }
 
+    @When("The user should see the text My Account")
+    public void the_user_should_see_the_text_my_account() {
+        loginPass.confirmTextAccount();
+    }
+
     @Then("I should be logged in")
     public void i_should_be_logged_in() {
 
     }
-
 
 
 }

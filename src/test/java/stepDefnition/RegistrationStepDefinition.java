@@ -3,10 +3,14 @@ package stepDefnition;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.qameta.allure.Attachment;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import pages.RegistrationPage;
+import utility.ScreenshotUtility;
 import utility.WebDriverUtility;
+
 
 
 
@@ -15,29 +19,35 @@ public class RegistrationStepDefinition {
     private RegistrationPage registrationPage;
 
 
-
     public RegistrationStepDefinition() {
+        WebDriver driver = WebDriverUtility.getDriver();
+        registrationPage = new RegistrationPage(driver);
 
-        registrationPage = new RegistrationPage(WebDriverUtility.getDriver());
     }
 
     @Given("I am on the Web Application page")
         public void i_am_on_the_login_page() throws InterruptedException {
-
         registrationPage.navigateToRegisterPage("http://www.automationpractice.pl/index.php");
 
     }
 
+
     @When("I click on the Sign in text")
     public void i_click_on_the_register_text() throws InterruptedException {
 
-
         registrationPage.clickRegisterText();
+
     }
 
+    @When("The user should see the Header of the Registration")
+    public void the_user_should_see_the_header_of_the_registration() {
+
+        registrationPage.confirmUserRegistration();
+    }
     @When("I enter email")
     public void i_enter_as_email() throws InterruptedException {
-        registrationPage.enterEmail("vitwedd@gmail.com");
+        registrationPage.enterEmail("vitwedompggd@gmail.com");
+
     }
 
 

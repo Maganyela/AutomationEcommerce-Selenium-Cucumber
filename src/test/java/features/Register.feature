@@ -11,6 +11,7 @@ Feature: Registration
     When I click on the Sign in text
     When I enter email
     When I click on the create an account button
+    When The user should see the Header of the Registration
     When I select the radiobutton
     When I enter firstname
     When I enter lastname

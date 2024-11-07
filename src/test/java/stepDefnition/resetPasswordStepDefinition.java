@@ -36,5 +36,6 @@ public class resetPasswordStepDefinition {
     @Then("It shows message of successfully sent")
     public void it_shows_message_of_successfully_sent() {
 
+        resetPasswordPage.showSuccessfulMessage();
     }
 }
